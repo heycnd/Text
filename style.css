@@ -1299,7 +1299,7 @@ textarea:focus ~ .highlight {
 /* Footer Area CSS */
 .footer-area {
   padding: 60px 0;
-  position: relative;
+   position: relative;        
   z-index: 1; }
   .footer-area .footer-social-area a {
     display: inline-block;
