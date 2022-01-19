@@ -152,45 +152,57 @@
 <div class="col-12 col-md-10 col-lg-9">
     <div class="contact-form">
         <h2>公設借閱</h2>
-        <p></p><p></p>
+        <p></p><br>
         <!-- Contact Form -->
         <form action="#" method="post">
             <div class="row">
                 <div class="col-12 col-md-6">
+                    <i><label>姓名</label></i>
                     <div class="group">
                         <input type="text" name="name" id="name" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Name</label>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
+                    <i><label>電話</label></i>
                     <div class="group">
-                        <input type="email" name="email" id="email" required>
+                        <input type="number" name="number" id="phone-number" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Email</label>
                     </div>
                 </div>
                 <div class="col-12">
+                    <i><label>需借物品</label></i>
                     <div class="group">
-                        <input type="text" name="subject" id="subject" required>
+                        <input type="text" name="thing" id="thing" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Subject</label>
+                    </div>
+                </div>
+                <br>
+                <div class="col-12">
+                    <i><label>借用時間</label></i>
+                    <div class="group">
+                        <input type="datetime-local" name="time" id="time1" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                       
                     </div>
                 </div>
                 <div class="col-12">
+                    <i><label>歸還時間</label></i>
                     <div class="group">
-                        <textarea name="message" id="message" required></textarea>
+                        <input type="datetime-local" name="time" id="time2" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Message</label>
+                        
                     </div>
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn original-btn">Send Message</button>
+                    <button type="submit" class="btn original-btn">送出</button>
                 </div>
+                
             </div>
         </form>
     </div>
@@ -202,7 +214,7 @@
 
 
 
-
+<p></p><p></p><p></p>
    
 
     <!-- ##### Cool Facts Area Start ##### -->
