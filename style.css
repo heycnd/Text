@@ -1121,6 +1121,49 @@ img {
   align-items: center; 
 }
 
+
+/*nav css*/
+/*大小顏色*/
+.sidebar{
+  position: fixed;
+  width: 180px;
+  height: 100%;
+  top: 180px;
+  left: 0;
+  z-index: 1;
+}
+
+/*選單間距*/
+.sidebar ul li{
+  margin: 25px 0;
+}
+
+.sidebar span {
+width:180px;
+height:70px;
+}
+
+/*選單文字顏色 位置*/
+.sidebar ul li a{
+  font-size: 16px;
+  color:#000000;
+  padding:0 30px;
+}
+
+/*游標移過的顏色*/
+
+.sidebar .nav:hover{
+background:#b32774;
+}
+
+.sidebar ul li a:hover{
+  color: #fd5fe8;
+  margin-left:20px;
+  transition: 0.4s;
+}
+
+
+
 /* Form CSS */
 .group {
   position: relative;
