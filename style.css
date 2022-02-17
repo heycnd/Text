@@ -1210,6 +1210,12 @@ background:#316399;
   line-height: 60px;
 }
 
+/*最新消息CSS*/
+
+.billboard-path a{
+  font-size: 25px;
+  margin-left: 10px;
+}
 
 
 /* Form CSS */
